@@ -1,0 +1,29 @@
+1- Desenvolver um procedimento para mapear uma representação formal de uma matriz armazenando o valor intensidade de brilho Y associado a cada uma delas.
+
+Algoritmo CriarMatrizBrilho()
+  Inicio
+
+  Inteiro Y[][]
+  Inteiro i, j, m, n
+  Inteiro valor_Brilho
+
+  // Definir a matriz de intensidade de brilho
+  leia m, n, valor_Brilho
+
+
+  // Plotar a matriz de intensidade de brilho
+    Enquanto (i < m) faça{
+      i + 1
+      Enquanto (j < n) faça{
+      j + 1
+      Y[i][j] = valor_Brilho
+      Escreva(Y[i][j])
+      }
+    }
+    
+  Fim
+
+
+
+
+

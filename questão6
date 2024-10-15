@@ -1,0 +1,25 @@
+6- Desenvolver um procedimento em pseudo-código ou português estruturado para plotar um segmento de reta paralela ao eixo das ordenadas, considerando dois ponto dados (Pi, Pf).
+
+Algoritmo EixoOrdenadas()
+  Inicio
+
+  Inteiro Y[][]
+  Inteiro linhas, colunas, i, j
+  Inteiro x_inicial, x_final
+  Inteiro y_inicial, y_final
+  Inteiro valor_brilho
+
+  leia linhas, colunas
+  leia x_inicial, x_final, y_inicial, y_final
+
+  Se(x_inicial == x_final) e (y_inicial < y_final) faça{
+    para n de y_inicial até y_final faça{
+      Y[x_inicial][n] = valor_brilho
+    }
+  }
+
+  Para i de 0 até linhas-1 faça{
+    para j de 0 até colunas-1 faça{
+      escreva (Y[i][j])
+    }
+  }

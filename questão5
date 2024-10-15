@@ -1,0 +1,29 @@
+5- Desenvolver um procedimento para plotar um segmento de reta paralelo ao eixo das abcissas
+
+Algoritmo EixoAbcissas()
+  Inicio
+
+  Inteiro Y[][] 
+  Inteiro linhas, colunas, i, j
+  Inteiro x_inicial, x_final
+  Inteiro y_inicial, y_final
+  Inteiro valor_brilho
+
+  leia  linhas, colunas
+  leia valor_brilho , x_inicial, x_final, y_inicial, y_final
+
+  Se (x_inicial < x_final) e (y_inicial == y_final) então faça{
+    para n de x_inicial até x_final faça{
+      Y[n][y_inicial] = valor_brilho
+    }
+  }
+
+  Para i de 0 até linhas-1 faça{
+    para j de 0 até colunas-1 faça{
+      escreva (Y[i][j])
+    }
+  }
+
+  Fim
+
+  
