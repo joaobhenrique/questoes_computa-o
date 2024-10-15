@@ -1,0 +1,1 @@
+16- Desenvolver um procedimento para plotar um setor circular disposto sobre o primeiro quadrante. Considere que o mesmo está centrado na origem. O algoritmo vai chamar e calcular o proximo ponto enquanto não chegar ao ponto final(X,0)
