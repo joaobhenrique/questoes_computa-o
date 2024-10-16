@@ -1,1 +1,27 @@
 8- Desenvolver um procedimento em pseudo-código ou português estruturado para plotar um segmento de reta paralela ao eixo das abscissas, considerando o ponto inicial (Pi) dado e como tamano de segmento de reta 40 posições.
+
+Algoritmo EixoAbscissas40 ()
+  Inicio
+
+  Inteiro Y[][]
+  Inteiro linhas, colunas, i, j
+  Inteiro x_inicial, x_final
+  Inteiro y_inicial, y_final
+  Inteiro valor_brilho
+
+  Leia linhas, colunas, valor_brilho
+  leia x_inicial, y_inicial, y_final
+
+  x_final = x_inicial + 40
+
+  Se(x_inicial < x_final) e (y_inicial == y_final)faça{
+    para n de x_inicial até x_final faça{
+      Y[n][y_inicial] = valor_brilho
+    }
+  }
+
+  Para i de 0 até linhas-1 faça{
+    para j de 0 até colunas-1 faça{
+      Escreva(Y[i][j])
+    }
+  }

@@ -1,1 +1,49 @@
 11- Desenvolver um procedimento em português estruturado ou pseudocódigo para plotar um retângulo no primeiro quadrante de sistema de eixo considere que v1, v2, v3 e v4 denominados vértices serão dados pelo usuário.
+
+Algoritmo do Retangulo()
+
+  Inicio
+
+  Inteiro: Y[][]
+  Inteiro: linhas, colunas, i, j, n
+  Inteiro: x_v1, y_v1
+  Interio: x_v2, y_v2
+  Inteiro: x_v3, y_v3
+  Inteiro: x_v4, y_v4
+  Inteiro: valor_brilho
+
+  leia linhas, colunas, valor_brilho
+  leia x_v1, x_v2, x_v3, x_v4
+  leia y_v1, y_v2, y_v3, y_v4
+
+  Para(linhas > 0) e (colunas > 0) faça{
+    Se(x_v1 - x_v2) == (x_v3 - x_v4) e (y_v1 - y_v3) == (y_v2 - y_v4) então{
+
+      Escreva(Plotar V1 até V2)
+      Para n de x_v1 até x_v2 faça{
+        Y[n][y_v1] = valor_brilho
+      }
+
+      Escreva(Plotar V3 até V4)
+      Para n de x_v3 até x_v4 faça{
+        Y[n][y_v3] = valor_brilho
+      }
+
+      Escreva(Plotar V1 até V3)
+      Para n de y_v1 até y_v3 faça{
+        Y[y_v1][n] = valor_brilho
+      }
+
+      Escreva(Plotar V2 até V4)
+      Para n de y_v2 até y_v4 faça{
+        Y[y_v2][n] = valor_brilho
+      }
+    }
+  
+  }
+
+  para i de 0 até linhas-1 faça{
+    para j de 0 até colunas-1 faça{
+      Escreva(Y[i][j])
+    }
+  }

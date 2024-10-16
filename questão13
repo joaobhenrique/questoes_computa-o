@@ -1,1 +1,35 @@
 13- Desenvolver um procedimento para plotar um feixe de N retas pararelas ao eixo das ordenadas. Considere dois pontos dados, Pi, Pf e uma distância D entre as retas.
+
+Algoritmo FeixesOrdenadas()
+
+  Inicio
+
+  Inteiro: Y[][]
+  Inteiro: linhas, colunas, n, i, j
+  Inteiro: x_inicial, x_final
+  Inteiro: y_inicial, y_final
+  Inteiro: valor_brilho
+  Inteiro: distancia, feixes, x_atual
+
+  leia linhas, colunas, valor_brilho
+  leia x_inicial, x_final, y_inicial, y_final
+
+  Escreva(Escolha o número de feixes de reta)
+  leia(feixes)
+
+  Escreva(Escolha a distância)
+  leia(distancia)
+
+  para i de 0 até feixes - 1 faça {
+    x_atual = (x_inicial + i) * distancia
+      para n de y_inicial até y_final faça{   
+        Y[x_atual][n] = valor_brilho
+      }
+    }
+  }
+
+  Para i de 0 até linhas-1 faça{
+    para j de 0 até colunas-1 faça{
+      Escreva(Y[i][j])
+    }
+  }

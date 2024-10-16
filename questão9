@@ -2,3 +2,42 @@
   a) Pararelo ao eixo das abcissas.
   b) Pararelo ao eixo das ordenadas.
   c) Em diagonal perfeita.
+
+   Algoritmo EixosTres ()
+
+  Inicio
+
+  Inteiro Y[][]
+  Inteiro linhas, colunas, i, j
+  Inteiro x_inicial, x_final
+  Inteiro y_inicial, y_final
+  Inteiro valor_brilho
+
+  Leia linhas, colunas, valor_brilho
+  Leia x_inicial, x_final, y_inicial, y_final
+
+  Se(x_inicial < x_final) e (y_inicial == y_final) então{
+    para n de x_inicial até x_final faça{
+      Y[n][y_inicial] = valor_brilho
+    }
+  }
+
+  Senão Se(x_inicial == x_final) e (y_inicial < y_final) então{
+    para n de y_inicial até y_final faça{
+      Y[x_inicial][n] = valor_brilho
+    }
+  }
+
+  Senão Se (x_final > x_inicial) e (y_final > y_inicial) então{
+    para n de 0 até (x_final - x_inicial) faça{
+      Y[x_inicial + n][y_inicial + n] = valor_brilho
+    }
+  }
+
+  para i de 0 até linha-1 faça{
+    para j de 0 até colunas-1 faça{
+      Escreva(Y[i][j])
+    }
+  }
+
+  Fim
