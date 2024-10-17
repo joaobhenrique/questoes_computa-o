@@ -1,0 +1,12 @@
+34- Expliqe o que é uma tecnica de histogramação considerando o processo de equalização e satução de uma imagem. Dê um exemplo de uma aplicação.
+
+A técnica de histogramação refere-se ao uso de histogramas para analisar e modificar a distribuição dos níveis de intensidade de uma imagem digital. Um histograma de uma imagem mostra a frequência de ocorrência de cada nível de brilho (ou intensidade) dos pixels, o que permite visualizar a distribuição da luz e contraste.
+
+Equalização de Histograma:
+A **equalização de histograma é uma técnica de processamento de imagem que ajusta o contraste de uma imagem, redistribuindo os níveis de intensidade. O objetivo é "espalhar" uniformemente os valores de intensidade da imagem, aumentando o contraste em áreas com baixa variação de brilho e realçando detalhes que antes estavam difíceis de perceber.
+
+Saturação de Imagem:
+A saturação está relacionada à intensidade das cores em uma imagem. Aumentar a saturação significa tornar as cores mais vivas e intensas, enquanto diminuir a saturação pode desbotar as cores até transformar a imagem em preto e branco (no caso de saturação zero).
+
+Exemplo de aplicação:
+Um exemplo comum de aplicação dessas técnicas é na **melhoria de imagens médicas**, como radiografias ou tomografias. A equalização de histograma pode ser utilizada para melhorar o contraste em áreas de interesse, destacando possíveis anomalias. Em imagens coloridas, como as de endoscopias, o ajuste de saturação pode realçar tecidos ou detalhes específicos.

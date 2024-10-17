@@ -1,1 +1,10 @@
 24- Explique o que são sistema de cores diferenciais?
+
+Sistemas de cores diferenciais são métodos usados para codificar e representar cores de maneira eficiente em contextos como compressão de imagens e vídeos. Em vez de armazenar as informações de cor diretamente no formato RGB (que utiliza as componentes vermelho, verde e azul), os sistemas diferenciais separam a informação de luminância (brilho) da crominância (informação de cor).
+
+Um exemplo típico é o sistema YUV, onde:
+
+. Y representa a luminância (informação de brilho).
+. U e V são os componentes diferenciais que carregam a informação de crominância (ou seja, a diferença entre o brilho e as cores vermelho e azul, respectivamente).
+
+Esses sistemas são vantajosos em compressão de imagens porque o olho humano é mais sensível a variações de brilho do que a variações de cor. Isso permite reduzir a resolução das informações de crominância (U e V), economizando espaço e largura de banda sem que a qualidade percebida seja significativamente afetada. Eles são amplamente usados em tecnologias como JPEG e MPEG.

@@ -1,1 +1,3 @@
 27- Explique o que é o movimento de Scaling.
+
+O movimento de scaling na computação gráfica refere-se à transformação geométrica que altera o tamanho de um objeto, mantendo sua forma proporcional. Essa operação é realizada ao multiplicar as coordenadas de um objeto por um fator de escala, que pode ser aplicado uniformemente em todas as direções ou de forma não proporcional em cada eixo (X, Y, e Z, no caso de gráficos 3D). O scaling permite ampliar ou reduzir um objeto no espaço sem modificar suas características essenciais, sendo amplamente utilizado para ajustar o tamanho de imagens, modelos ou cenas de acordo com as necessidades visuais ou técnicas de uma aplicação.

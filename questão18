@@ -1,1 +1,17 @@
 18- Explique de que forma a transposição dos eixos gráficos possibilitam a geração de objetos poliedros, dê um exemplo.
+
+A transposição dos eixos gráficos em computação gráfica refere-se à transformação das coordenadas de um objeto tridimensional (3D) ao longo dos eixos x, y e z. Quando manipulamos essas coordenadas, podemos criar e modificar a forma de objetos 3D, como poliedros. A transposição dos eixos gráficos é fundamental porque permite a rotação, escalonamento e tradução (movimento) de objetos no espaço tridimensional, o que facilita a visualização e geração de formas complexas.
+
+Como a transposição gera objetos poliedros?
+Um poliedro é uma figura tridimensional com faces planas, como um cubo ou uma pirâmide. Para gerar esses objetos na computação gráfica, é necessário definir as coordenadas de seus vértices no espaço 3D. A transposição dos eixos gráficos pode ser usada para aplicar transformações nesses vértices, como:
+
+Rotação: Altera a orientação do objeto ao longo dos eixos x, y, ou z, girando-o em torno de um ponto de referência.
+Escalonamento: Modifica o tamanho do objeto ao multiplicar as coordenadas dos vértices por um fator de escala ao longo de um ou mais eixos.
+Translação: Move o objeto no espaço tridimensional, alterando sua posição.
+
+Por exemplo, imagine a criação de um cubo:
+
+1. Primeiro, define-se as coordenadas de seus 8 vértices em um sistema de coordenadas 3D.
+2. Ao aplicar uma rotação em torno do eixo y, o cubo parece girar lateralmente.
+3. Em seguida, ao escaloná-lo de forma desigual ao longo dos eixos x e z, ele se transformaria em um paralelepípedo.
+4. Finalmente, a translação move o objeto para uma nova posição no espaço gráfico.

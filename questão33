@@ -1,0 +1,9 @@
+33- Expliqe o que é processamento digital de uma imagem. Dê um exemplo de uma aplicação.
+
+Processamento digital de imagens é a técnica de manipular imagens digitais por meio de algoritmos computacionais. Esse processo envolve operações como melhorar a qualidade, extrair informações, alterar características ou converter a imagem para outro formato. As imagens são representadas por uma matriz de pixels, onde cada pixel possui informações como intensidade de cor e brilho. 
+
+Os principais objetivos do processamento de imagens incluem a correção de imperfeições, a segmentação de objetos dentro da imagem, o reconhecimento de padrões, entre outros.
+
+Exemplo de aplicação:
+Um exemplo clássico de processamento digital de imagens é o *econhecimento facial, usado em smartphones para desbloquear a tela. Esse processo envolve capturar uma imagem do rosto do usuário, melhorar a qualidade da imagem, identificar características-chave (como olhos, boca, nariz), comparar com imagens armazenadas, e determinar se há uma correspondência para autorizar o acesso.
+

@@ -1,0 +1,14 @@
+36- Expliqe o que é uma tecnica de segmentação. Dê um exemplo de uma aplicação.
+
+A técnica de segmentação é um processo de divisão de uma imagem em partes ou segmentos significativos, que facilitam a análise e interpretação do conteúdo visual. O objetivo da segmentação é simplificar ou alterar a representação de uma imagem em algo que seja mais significativo e mais fácil de analisar. Essa técnica é fundamental em várias áreas de processamento de imagens e visão computacional.
+
+Tipos de Segmentação:
+1. Baseada em Limiares: Segmenta a imagem com base em um ou mais valores de limiar, separando objetos do fundo.
+2. Baseada em Regiões: Agrupa pixels adjacentes que têm características semelhantes, como cor ou intensidade.
+3. Baseada em Contornos: Detecta as bordas e contornos de objetos dentro da imagem.
+4. Segmentação por Clustering: Agrupa pixels em clusters com base em características comuns, como K-means ou segmentação baseada em espectro.
+
+Exemplo de aplicação:
+Um exemplo prático de segmentação é na detecção de tumores em imagens médicas, como ressonâncias magnéticas ou tomografias computadorizadas. A segmentação pode ser utilizada para identificar e isolar áreas suspeitas dentro da imagem, facilitando a análise por médicos e especialistas. Essa técnica permite uma avaliação mais precisa do tamanho, forma e localização do tumor, ajudando no diagnóstico e no planejamento do tratamento. 
+
+Além disso, a segmentação é amplamente utilizada em sistemas de vigilância, reconhecimento facial, análise de tráfego, e na indústria de automação e robótica para navegação e mapeamento.

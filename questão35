@@ -1,0 +1,10 @@
+35- Expliqe o que é uma tecnica de limialização. Dê um exemplo de uma aplicação.
+
+A técnica de limiarização (ou binarização) é um método de processamento de imagens que transforma uma imagem em uma forma binária, ou seja, onde os pixels são convertidos em dois níveis de intensidade: normalmente, 0 (preto) e 1 (branco). Essa técnica é amplamente utilizada para segmentar uma imagem, separando objetos de fundo com base em um valor de limiar predefinido.
+
+Processo de Limiarização:
+1. Escolha do Limiar: Um valor de limiar é determinado. Este pode ser fixo ou adaptativo, dependendo do conteúdo da imagem.
+2. Binarização: Cada pixel da imagem é comparado ao valor de limiar. Se a intensidade do pixel for maior que o limiar, ele é definido como branco; caso contrário, é definido como preto.
+
+Exemplo de aplicação:
+Um exemplo comum de aplicação da limiarização é no reconhecimento óptico de caracteres (OCR). Nesse contexto, a limiarização é utilizada para separar os caracteres do fundo de um documento escaneado. Ao converter a imagem do texto em uma forma binária, o sistema pode facilmente identificar as letras e números, facilitando sua leitura e interpretação por software. Essa técnica é essencial em aplicações que envolvem digitalização de documentos e automação de processos de captura de dados.
